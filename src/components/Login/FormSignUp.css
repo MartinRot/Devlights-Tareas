@@ -1,0 +1,233 @@
+.SignUpFormTitle{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-size: 28px;
+    line-height: 32px;
+    line-height: 94%;
+    word-spacing: 1px;    
+    font-weight: 600;
+    color: #FFFFFF;  
+    margin-bottom: 50px;
+}
+
+.ErrorMessage{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    word-spacing: 1px;
+    color: #FFFFFF;  
+    margin-bottom: 10px;
+}
+
+.SignUpForm{
+    width: 927px;
+    height: 800px;
+    background-color: #FFFFFF;    
+    border-radius: 10px;    
+}
+
+.SignUpFormDescription{
+    font-family: 'Inter', sans-serif;
+    font-style: regular;
+    font-weight: 400;
+    font-size: 24px;    
+    margin-block: 0;
+    color: #666666;
+    /* margin-bottom: 40px; */
+    margin-top: 45px;
+    margin-bottom: 40px;
+    line-height: 29px;
+    Line-height: 100%;
+    word-spacing: 1px;    
+}
+
+.SignUpFormContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.SignUpFormInputLabel{   
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 64px;    
+    color: #666666;
+    align-self: flex-start;
+    margin-left: 5.5rem;
+}
+
+.SignUpFormInput{
+    background-color: #F5F5F5;
+    border-radius: 10px;
+    height: 58px;
+    width: 750px;
+    color: #666666;
+    border: 0;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;  
+} 
+
+.SignUpFormLink{
+    margin-block: 0;
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 64px;    
+    color: #999999;
+    align-self: end;
+    margin-right: 5.5rem;
+    cursor: pointer;
+}
+
+.SignUpFormButton{
+    background-color: #2148C0;
+    color: #FFFFFF;
+    border-radius: 10px;
+    height: 72px;
+    width: 750px;
+    border: 0;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    cursor: pointer;
+    margin-top: 38px;
+}
+
+
+/* Breakpoints */
+@media only screen and (max-width: 1700px) {
+
+    .SignUpForm{
+        width: 624px;
+        height: 743px;  
+    }
+
+    .SignUpFormDescription{
+        font-size: 22px;
+        margin-top: 50px;
+        margin-bottom: 30px;
+        word-spacing: 1px; 
+    }
+
+    .SignUpFormInputLabel {
+        font-size: 20px;
+        margin-left: 2.5rem;
+        line-height: 70px;
+    }
+
+    .SignUpFormInput {
+        height: 55px;
+        width: 545px;
+        font-size: 22px;
+    }
+
+    .SignUpFormLink {
+        font-size: 22px;
+        margin-right: 2.5rem;
+        line-height: 40px;
+    }
+
+    .SignUpFormButton {
+        height: 55px;
+        width: 545px;
+        font-size: 22px;
+        margin-top: 20px;
+    }
+  
+}
+
+@media only screen and (max-width: 992px) {
+
+    .SignUpForm{
+        width: 480px;
+        height: 610px;  
+    }
+
+    .SignUpFormDescription{
+        font-size: 18px;  
+        margin-top: 35px;
+        margin-bottom: 10px;
+        word-spacing: 0.5px;    
+    }
+
+    .SignUpFormInputLabel {
+        font-size: 18px;
+        margin-left: 2.5rem;
+        line-height: 60px;
+    }
+
+    .SignUpFormInput {
+        height: 45px;
+        width: 400px;
+        font-size: 20px;
+    }
+
+    .SignUpFormLink {
+        font-size: 18px;
+        margin-right: 2.5rem;
+        line-height: 40px;
+    }
+
+    .SignUpFormButton {
+        height: 45px;
+        width: 400px;
+        font-size: 18px;
+        margin-top: 15px;
+    }
+  
+}
+  
+@media only screen and (max-width: 480px) {
+
+    .FormTitle{
+        font-size: 18px;
+    }
+    
+    .SignUpForm{
+        width: 335px;
+        height: 520px;  
+    }
+
+    .SignUpFormDescription{
+        font-size: 16px;
+        margin-top: 30px;
+        margin-bottom: 5px;
+        word-spacing: 0;   
+    }
+
+    .SignUpFormInputLabel {
+        font-size: 16px;
+        margin-left: 1.5rem;
+        line-height: 45px;
+    }
+
+    .SignUpFormInput {
+        height: 45px;
+        width: 290px;
+        font-size: 16px;
+    }
+
+    .SignUpFormLink {
+        font-size: 16px;
+        margin-right: 2.5rem;
+        line-height: 40px;
+    }
+
+    .SignUpFormButton {
+        height: 45px;
+        width: 290px;
+        font-size: 16px;
+        margin-top: 5px;
+    }
+
+}

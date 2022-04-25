@@ -1,0 +1,233 @@
+.FormTitle{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-size: 28px;
+    line-height: 32px;
+    line-height: 94%;
+    word-spacing: 1px;    
+    font-weight: 600;
+    color: #FFFFFF;  
+    margin-bottom: 70px;
+}
+
+.ErrorMessage{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    word-spacing: 1px;
+    color: #FFFFFF;  
+    margin-bottom: 10px;
+}
+
+.LoginForm{
+    width: 927px;
+    height: 739px;
+    background-color: #FFFFFF;    
+    border-radius: 10px;    
+}
+
+.LoginFormDescription{
+    font-family: 'Inter', sans-serif;
+    font-style: regular;
+    font-weight: 400;
+    font-size: 24px;    
+    margin-block: 0;
+    color: #666666;
+    margin-top: 86px;
+    margin-bottom: 40px;
+    line-height: 29px;
+    Line-height: 100%;
+    word-spacing: 1px;    
+}
+
+.LoginFormContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.LoginFormInputLabel{   
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 64px;    
+    color: #666666;
+    align-self: flex-start;
+    margin-left: 5.5rem;
+}
+
+.LoginFormInput{
+    background-color: #F5F5F5;
+    border-radius: 10px;
+    height: 58px;
+    width: 750px;
+    color: #666666;
+    border: 0;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;  
+} 
+
+.LoginFormLink{
+    margin-block: 0;
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 64px;    
+    color: #999999;
+    align-self: end;
+    margin-right: 5.5rem;
+    cursor: pointer;
+}
+
+.LoginFormButton{
+    background-color: #2148C0;
+    color: #FFFFFF;
+    border-radius: 10px;
+    height: 72px;
+    width: 750px;
+    border: 0;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    cursor: pointer;
+    margin-top: 38px;
+}
+
+
+/* Breakpoints */
+@media only screen and (max-width: 1700px) {
+
+    .LoginForm{
+        width: 624px;
+        height: 643px;  
+    }
+
+    .LoginFormDescription{
+        font-size: 22px;
+        margin-top: 50px;
+        margin-bottom: 30px;
+        word-spacing: 1px; 
+    }
+
+    .LoginFormInputLabel {
+        font-size: 20px;
+        margin-left: 2.5rem;
+        line-height: 70px;
+    }
+
+    .LoginFormInput {
+        height: 55px;
+        width: 545px;
+        font-size: 22px;
+    }
+
+    .LoginFormLink {
+        font-size: 22px;
+        margin-right: 2.5rem;
+        line-height: 40px;
+    }
+
+    .LoginFormButton {
+        height: 55px;
+        width: 545px;
+        font-size: 22px;
+        margin-top: 20px;
+    }
+  
+}
+
+@media only screen and (max-width: 992px) {
+
+    .LoginForm{
+        width: 480px;
+        height: 510px;  
+    }
+
+    .LoginFormDescription{
+        font-size: 18px;  
+        margin-top: 35px;
+        margin-bottom: 10px;
+        word-spacing: 0.5px;    
+    }
+
+    .LoginFormInputLabel {
+        font-size: 18px;
+        margin-left: 2.5rem;
+        line-height: 60px;
+    }
+
+    .LoginFormInput {
+        height: 45px;
+        width: 400px;
+        font-size: 20px;
+    }
+
+    .LoginFormLink {
+        font-size: 18px;
+        margin-right: 2.5rem;
+        line-height: 40px;
+    }
+
+    .LoginFormButton {
+        height: 45px;
+        width: 400px;
+        font-size: 18px;
+        margin-top: 15px;
+    }
+  
+}
+  
+@media only screen and (max-width: 480px) {
+
+    .FormTitle{
+        font-size: 18px;
+    }
+    
+    .LoginForm{
+        width: 335px;
+        height: 460px;  
+    }
+
+    .LoginFormDescription{
+        font-size: 16px;
+        margin-top: 30px;
+        margin-bottom: 5px;
+        word-spacing: 0;   
+    }
+
+    .LoginFormInputLabel {
+        font-size: 16px;
+        margin-left: 1.5rem;
+        line-height: 45px;
+    }
+
+    .LoginFormInput {
+        height: 45px;
+        width: 290px;
+        font-size: 16px;
+    }
+
+    .LoginFormLink {
+        font-size: 16px;
+        margin-right: 2.5rem;
+        line-height: 40px;
+    }
+
+    .LoginFormButton {
+        height: 45px;
+        width: 290px;
+        font-size: 16px;
+        margin-top: 5px;
+    }
+
+}

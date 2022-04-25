@@ -1,0 +1,109 @@
+.LoginFormSuccess{   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 566px;
+    min-height: 396px;
+    height: auto;
+    box-shadow: 5px 5px 20px 0 rgb(0 0 0 / 40%);
+    margin: 60px auto;    
+    background-color: #333333;
+    padding-top: 40px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+    border-style: solid;
+    border-color: #13c8d0;
+}
+
+.LoginSuccessTitle{
+    font-size: 3.75rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 700;
+    margin: 0 auto;
+    color: #2148C0;    
+}
+
+.LoginSuccessDescription{
+    margin: 33px 0 0;
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+}
+
+.SuccessButton{
+    background-color: #2148C0;
+    color: #FFFFFF;
+    border-radius: 10px;
+    height: 60px;
+    width: 200px;
+    border: 0;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    cursor: pointer;
+    margin-top: 38px;
+}
+
+
+/* Breakpoints */
+@media only screen and (max-width: 768px) {
+
+    .LoginFormSuccess{   
+        width: 380px;
+        min-height: 300px;
+        margin: 60px auto;    
+        padding-top: 30px;
+        padding-right: 20px;
+        padding-bottom: 30px;
+        padding-left: 20px;
+    }
+    
+    .LoginSuccessTitle{
+        font-size: 2.75rem;
+    }
+    
+    .LoginSuccessDescription{
+        font-size: 22px;
+    }
+    
+    .SuccessButton{
+        font-size: 24px;
+        margin-top: 15px;
+    }    
+  
+}
+  
+@media only screen and (max-width: 480px) {
+
+    .LoginFormSuccess{   
+        width: 245px;
+        min-height: 300px;
+        margin: 60px auto;    
+        padding-top: 30px;
+        padding-right: 20px;
+        padding-bottom: 30px;
+        padding-left: 20px;
+    }
+    
+    .LoginSuccessTitle{
+        font-size: 1.75rem;
+    }
+    
+    .LoginSuccessDescription{
+        font-size: 20px;
+    }
+    
+    .SuccessButton{
+        font-size: 20px;
+        margin-top: 10px;
+        width: 150px;
+        height: 50px;
+    }    
+  
+}
